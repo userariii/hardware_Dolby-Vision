@@ -1,4 +1,4 @@
-DOLBYVISION_PATH := hardware/Dolby-Vision
+DOLBYVISION_PATH := hardware/Dolby-Vision/
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += $(DOLBYVISION_PATH)
