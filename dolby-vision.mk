@@ -16,5 +16,7 @@ PRODUCT_COPY_FILES += \
 	$(DOLBYVISION_PATH)vendor/lib/c2.dolby.hevc.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/c2.dolby.hevc.dec.so \
 	$(DOLBYVISION_PATH)vendor/lib/c2.dolby.hevc.sec.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/c2.dolby.hevc.sec.dec.so \
 	$(DOLBYVISION_PATH)vendor/lib/c2.dolby.store.so:$(TARGET_COPY_OUT_VENDOR)/lib/c2.dolby.store.so \
+	$(DOLBYVISION_PATH)vendor/lib/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libavservices_minijail_vendor.so \
 	$(DOLBYVISION_PATH)vendor/lib/libdolbyottcameracontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdolbyottcameracontrol.so \
-	$(DOLBYVISION_PATH)vendor/lib/libdovi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdovi.so
+	$(DOLBYVISION_PATH)vendor/lib/libdovi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdovi.so \
+	$(DOLBYVISION_PATH)vendor/lib64/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libavservices_minijail_vendor.so
